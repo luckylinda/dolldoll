@@ -11,20 +11,7 @@ namespace MyJCalendar
     {
         public App()
         {
-            // The root page of your application
-            //MainPage = new ContentPage
-            //{
-            //    Content = new StackLayout
-            //    {
-            //        VerticalOptions = LayoutOptions.Center,
-            //        Children = {
-            //            new Label {
-            //                XAlign = TextAlignment.Center,
-            //                Text = "Welcome to Xamarin Forms!"
-            //            }
-            //        }
-            //    }
-            //};
+            //시작페이지로 회사 추가 페이지 설정 
             MainPage = new NewCompanyPage();
         }
 
